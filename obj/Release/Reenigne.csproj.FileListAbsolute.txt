@@ -1,0 +1,12 @@
+D:\Dropbox\o\Reenigne\Reenigne_GH\obj\Release\Reenigne.formLayerConfig.resources
+D:\Dropbox\o\Reenigne\Reenigne_GH\obj\Release\Reenigne.symbolSelectorForm.resources
+D:\Dropbox\o\Reenigne\Reenigne_GH\obj\Release\Reenigne.mainForm.resources
+D:\Dropbox\o\Reenigne\Reenigne_GH\obj\Release\WindowsFormsApp2.Properties.Resources.resources
+D:\Dropbox\o\Reenigne\Reenigne_GH\obj\Release\Reenigne.csproj.GenerateResource.cache
+D:\Dropbox\o\Reenigne\Reenigne_GH\obj\Release\Reenigne.csproj.CoreCompileInputs.cache
+D:\Dropbox\o\Reenigne\Reenigne_GH\bin\Release\Reenigne.exe.config
+D:\Dropbox\o\Reenigne\Reenigne_GH\bin\Release\Reenigne.exe
+D:\Dropbox\o\Reenigne\Reenigne_GH\bin\Release\Reenigne.pdb
+D:\Dropbox\o\Reenigne\Reenigne_GH\obj\Release\Reenigne.csprojAssemblyReference.cache
+D:\Dropbox\o\Reenigne\Reenigne_GH\obj\Release\Reenigne.exe
+D:\Dropbox\o\Reenigne\Reenigne_GH\obj\Release\Reenigne.pdb
