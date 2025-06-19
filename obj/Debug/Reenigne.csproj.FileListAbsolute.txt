@@ -10,3 +10,15 @@ D:\Dropbox\o\Reenigne\Reenigne\obj\Debug\WindowsFormsApp2.exe
 D:\Dropbox\o\Reenigne\Reenigne\obj\Debug\WindowsFormsApp2.pdb
 D:\Dropbox\o\Reenigne\Reenigne\obj\Debug\Reenigne.symbolSelectorForm.resources
 D:\Dropbox\o\Reenigne\Reenigne\obj\Debug\Reenigne.formLayerConfig.resources
+D:\Dropbox\o\Reenigne\Reenigne_GH\bin\Debug\Reenigne.exe.config
+D:\Dropbox\o\Reenigne\Reenigne_GH\bin\Debug\Reenigne.exe
+D:\Dropbox\o\Reenigne\Reenigne_GH\bin\Debug\Reenigne.pdb
+D:\Dropbox\o\Reenigne\Reenigne_GH\obj\Debug\Reenigne.csprojAssemblyReference.cache
+D:\Dropbox\o\Reenigne\Reenigne_GH\obj\Debug\Reenigne.formLayerConfig.resources
+D:\Dropbox\o\Reenigne\Reenigne_GH\obj\Debug\Reenigne.symbolSelectorForm.resources
+D:\Dropbox\o\Reenigne\Reenigne_GH\obj\Debug\Reenigne.mainForm.resources
+D:\Dropbox\o\Reenigne\Reenigne_GH\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+D:\Dropbox\o\Reenigne\Reenigne_GH\obj\Debug\Reenigne.csproj.GenerateResource.cache
+D:\Dropbox\o\Reenigne\Reenigne_GH\obj\Debug\Reenigne.csproj.CoreCompileInputs.cache
+D:\Dropbox\o\Reenigne\Reenigne_GH\obj\Debug\Reenigne.exe
+D:\Dropbox\o\Reenigne\Reenigne_GH\obj\Debug\Reenigne.pdb

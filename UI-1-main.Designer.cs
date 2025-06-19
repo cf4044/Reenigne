@@ -163,6 +163,7 @@
 			this.boardPictureBox.Size = new System.Drawing.Size(481, 557);
 			this.boardPictureBox.TabIndex = 0;
 			this.boardPictureBox.TabStop = false;
+			this.boardPictureBox.Click += new System.EventHandler(this.boardPictureBox_Click);
 			// 
 			// boardContextMenu
 			// 
@@ -610,7 +611,7 @@
 			// checkBoxBreak
 			// 
 			this.checkBoxBreak.AutoSize = true;
-			this.checkBoxBreak.Location = new System.Drawing.Point(32, 456);
+			this.checkBoxBreak.Location = new System.Drawing.Point(30, 443);
 			this.checkBoxBreak.Name = "checkBoxBreak";
 			this.checkBoxBreak.Size = new System.Drawing.Size(54, 17);
 			this.checkBoxBreak.TabIndex = 4;

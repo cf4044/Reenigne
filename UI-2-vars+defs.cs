@@ -190,8 +190,7 @@ namespace Reenigne
 		public static int centroidSelectorIndex		= -1;
 
         // other stuff
-        static bool quit = true;
-        public static bool Quit { get => quit; set => quit = value; }
+        
 
     }
 }

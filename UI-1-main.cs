@@ -19,6 +19,7 @@ namespace Reenigne
 	public partial class mainForm : Form
 	{				
 		kSymbol sym = new kSymbol();             // KLUDGE  dev only
+		public static bool quit;
 
 		// Main form initialisation
 		public mainForm()
@@ -310,6 +311,10 @@ namespace Reenigne
 			{
 				traceHandler.componentss[componentSelectorIndex].desigType = textBoxDesigType.Text;
 				int.TryParse( textBoxDesigNum.Text, out traceHandler.componentss[componentSelectorIndex].desigNum );
+				if( traceHandler.componentss[componentSelectorIndex].symbol != null )
+				{
+					traceHandler.componentss[componentSelectorIndex].symbol.name = textBoxComponentName.Text;
+				}
 			}
 		}
 		
@@ -333,7 +338,7 @@ namespace Reenigne
 				// Keys specific to the board display window and specific to the mouse operation mode
 				switch( boardMouseMode )
 				{
-					case boardMouseModes.selectItem:
+					case boardMouseModes.selectItem:			// Actions to be done on selections
 						switch( keyData )
 						{
 							case Keys.Delete:
@@ -363,6 +368,27 @@ namespace Reenigne
 								{
 									traceHandler.deleteComponent( componentSelectorIndex );
 									componentSelectorIndex = -1;
+									redrawBoards();
+									keyData = Keys.None;
+								}
+								break;
+							case Keys.R:   // Rotate a selecetd component
+								if( componentToolStripMenuItem.Checked && componentSelectorIndex >= 0 )
+								{
+									traceHandler.componentss[componentSelectorIndex].Rotation += 90.0f;
+									redrawBoards();
+									keyData = Keys.None;
+								}
+								break;
+							case Keys.M:	// Move the selected component to the current cursor position
+								if( componentToolStripMenuItem.Checked && componentSelectorIndex >= 0 )
+								{
+									Point mouseScreenPos = Cursor.Position;										// Get global mouse position																																	
+									Point mouseClientPos = boardPictureBox.PointToClient(mouseScreenPos);		// Convert to client coordinates
+									if( boardPictureBox.ClientRectangle.Contains( mouseClientPos ) )			// Check if inside the control
+									{
+										traceHandler.componentss[componentSelectorIndex].position = boardImage.boardCoordFromScreenCoordF( mouseClientPos );
+									}
 									redrawBoards();
 									keyData = Keys.None;
 								}
@@ -983,6 +1009,11 @@ namespace Reenigne
 			//nn = schematic.netElements.Where( i => i.netNum < 281 );
 		}
 		public bool  debugBreak() { return checkBoxBreak.Checked; }
+
+		private void boardPictureBox_Click( object sender, EventArgs e )
+		{
+
+		}
 
 
 

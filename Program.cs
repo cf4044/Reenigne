@@ -229,7 +229,7 @@ namespace Reenigne
 				glob.mainForm = new mainForm();
 				Application.Run( glob.mainForm );
 			}
-			while( !mainForm.Quit );
+			while( !mainForm.quit );
 
 			
 			DoNothing();
